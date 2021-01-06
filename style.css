@@ -1,0 +1,35 @@
+*{
+    
+
+}
+p{
+    font-style: oblique;
+    font-size: larger;
+}
+.header{
+    background-image: url("./image.jpg");
+}
+.icons{
+    background-color: :#8ccdef;
+     display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.icons2:hover{
+    transform: scale(2);
+}
+.games{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.element{
+    background-color:#8ccdef;
+    margin: 50px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.element:hover{
+    transform: scale(1.5);
+}
